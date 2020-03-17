@@ -196,5 +196,15 @@ body {
       }
 
 
-   
+/*smartphones*/
+      @media only screen and (max-width: 600px) {
+        p, h1, h2, h3, a, code {
+          font-size: 16px !important;
+          
+        }
+        section {
+          max-height: 100% !important;
+          max-width: 100% !important;
+        }
+      } 
 
