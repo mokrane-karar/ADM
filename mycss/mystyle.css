@@ -1,0 +1,200 @@
+body {
+  background-color:  aqua;
+}
+#autor {
+  background-color: rgba(0,0,0,1);
+  text-align: right;
+  margin-right: 10%;
+  margin-left: 3%;
+  font-size: 10px;
+}
+
+#s2, #s3, #s4, #s401, #s402, #s403, #s41, #s42, #s43, #s52, #s53, #s54, #s55, #s56, #s58    {
+    max-height: 100;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: 10%; 
+    margin-right: 10%;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 0 30px rgba(0,0,0,0.9);
+    position: fixed; 
+    top: 0; 
+    width: 80%;
+    font-size: 18px;
+    
+  }
+
+  #s57 {
+    max-height: 100;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-bottom: 60%;
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 0 0 30px rgba(0,0,0,0.9);
+    position: fixed; 
+    top: 0; 
+    width: 80%;
+    font-size: 18px;
+
+  }
+  #s5, #s6, #s7, #s8, #s9, #s10, #s11, #s12, #s13, #s14,
+   #s15, #s16, #webgl3d, #s17, #s18, #s19, #s20, #s21, #s22,
+   #s23, #s24, #s25, #s26, #s27, #s28, #s281, #s29, #s30,
+   #s31, #s32, #s33, #s34, #s35, #s36, #s37, #s38, #s39, #s40, #s60,  #s61,  #s62,  #s63,  
+   #s64,  #s65,  #s66,  #s67,  #s68,  #s69,  #s70,  #s71,  
+   #s72,  #s73,  #s74,  #s75,  #s76,  #s77,  #s78,  #s79,  
+   #s80,  #s81, #s82,  #s83,  #s84,  #s85,  #s86,  #s87,  #s88, 
+    #s89,  #s90,  #s91,  #s92,  #s93,  #s94,  #s95,  #s96,  #s97, 
+     #s98,  #s99,  #s100    {
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 0 30px rgba(0,0,0,0.9);
+
+  }
+  #s281 {
+    font-size: 18px;
+  }
+  #s1 {
+    max-height: 100;
+    max-width: 100%; 
+    display: block;
+    height: auto;
+    margin-left: 10%; 
+    margin-right: 10%;
+    background-color: rgba(0,0,0,0.9);
+    box-shadow: 0 0 30px rgba(0,0,0,0.9);
+    position: fixed; 
+    top: 0; 
+    width: 80%;
+  }
+  #sumP1 {
+    background-color: rgb(255, 251, 0);
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  #text.high {
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+
+
+  }
+
+
+  
+  #index3 {
+    list-style-type: none;
+    counter-reset: item 2;
+    margin: 0;
+    padding: 0;
+  }
+  #index4 {
+    list-style-type: none;
+    counter-reset: item 3;
+    margin: 0;
+    padding: 0;
+  }
+
+  #index401 {
+    list-style-type: none;
+    counter-reset: item 4;
+    margin: 0;
+    padding: 0;
+  }
+
+  #index41 {
+    list-style-type: none;
+    counter-reset: item 5;
+    margin: 0;
+    padding: 0;
+  }
+
+  #index42 {
+    list-style-type: none;
+    counter-reset: item 6;
+    margin: 0;
+    padding: 0;
+  }
+
+  #index43 {
+    list-style-type: none;
+    counter-reset: item 7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*------------------------------------Mise en forme texte------------------------------*/
+  
+
+   /*------------------------------------Hover------------------------------------------*/
+   #console {
+     background-color: rgb(38, 45, 85);
+     text-align: left;
+     margin-left: 5%;
+     margin-right: 5%;
+     font-size: 20px;
+   }
+
+
+
+   #sp{
+     color: yellow;
+   }
+
+   #markedText {
+     font-size: 35px;
+     font-family: 'Arial';
+     font-weight: bold;
+   }
+   
+
+   .diapHeader {
+     display: grid;
+     grid-template-columns: auto auto ;
+   }
+   
+   
+   .data-animate {
+     animation-duration: 10s;
+   }
+
+   
+   .exercise {
+      margin: 0px;
+    }
+
+    [data-datacamp-exercise] {
+        visibility: hidden;
+      }
+
+
+
+
+
+      .chat {
+        display: grid;
+        grid-template-columns: auto;
+      }
+
+      .Home {
+        display: grid;
+        
+      }
+
+      .chatRoom {
+        background-color: #87CEEB !important;
+
+      }
+
+      .R {
+        background-color: rgb(217, 235, 135) !important;
+
+      }
+
+
+   
+
